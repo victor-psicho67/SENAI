@@ -1,0 +1,5 @@
+print("Seu usuário:")
+usuario = str(input())
+print("Sua senha:")
+senha = int(input())
+print("Login realizado com sucesso")

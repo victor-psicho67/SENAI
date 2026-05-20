@@ -1,0 +1,5 @@
+print("Qual é seu numero de creditos atuais?")
+creditos_atuais = int(input())
+print("Quanto você quer adicionar?")
+creditos_adicionais = int(input())
+print("Seu total de creditos agora é:", creditos_adicionais + creditos_atuais)

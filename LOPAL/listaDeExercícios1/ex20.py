@@ -1,0 +1,13 @@
+v1 = input("Insira o nome da venda: "), int(input("Insira o valor da venda: "))
+v2 = input("Insira o nome da venda: "), int(input("Insira o valor da venda: "))
+v3 = input("Insira o nome da venda: "), int(input("Insira o valor da venda: "))
+v4 = input("Insira o nome da venda: "), int(input("Insira o valor da venda: "))
+v5 = input("Insira o nome da venda: "), int(input("Insira o valor da venda: "))
+maiorv = max(v1, v2, v3, v4, v5)
+menorv = min(v1, v2, v3, v4, v5)
+total = sum([v1[1], v2[1], v3[1], v4[1], v5[1]])
+media = sum([v1[1], v2[1], v3[1], v4[1], v5[1]])/5
+print("Esta é a maior venda: ", maiorv)
+print("Esta é a menor venda: ", menorv)
+print("O total de todas as vendas é: ", total)
+print("A media de vendas é: ", media)
